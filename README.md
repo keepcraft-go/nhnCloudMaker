@@ -33,3 +33,15 @@ nhncloudmaker/
 
 examples/
 └── create_vpc_and_subnet.py
+
+## Quick Start
+
+```bash
+git clone https://github.com/keepcraft-go/nhnCloudMaker.git
+cd nhnCloudMaker
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+cp .env.example .env
