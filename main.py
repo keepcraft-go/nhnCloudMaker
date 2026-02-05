@@ -1,4 +1,4 @@
-import nhnCloudMaker.get_token as get_token
+import get_token
 from vpc import create_vpc
 from subnet import create_subnet
 

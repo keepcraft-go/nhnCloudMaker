@@ -1,5 +1,5 @@
 from nhn_api_client import nhn_api_call
-import nhn_uris as uri
+import uris as uri
 
 def create_vpc(name: str, cidr: str):
     data = {
