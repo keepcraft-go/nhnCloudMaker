@@ -2,6 +2,7 @@ import requests
 import base64
 from dotenv import load_dotenv
 import os
+import random
 
 load_dotenv() #.env 일을 찾아 그 안에 정의된 변수들을 시스템 환경 변수로 등록
 
